@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/index.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='main.js'></script>
+</head>
+<body>
+   
+ <section id="paymentpage">
+       <div>PAYMENT PAGE</div> 
+
+       <article id="paymentpage2">
+            <div>CHOOSE YOUR PAYMENT OPTION</div>
+       </article>
+
+        <article id="paymentpage1">
+            <div class="pp11">
+                <i class="fa-solid fa-credit-card"></i>
+                <div>PAY WITH CREDIT CARD</div>
+            </div>
+    
+            <div class="pp11">
+                <i class="fa-brands fa-paypal"></i>
+                <div>PAY WITH PAYPAL</div>
+            </div>
+    
+            <div class="pp11">
+               <i class="fa-brands fa-amazon-pay"></i>
+                <div>PAY WITH AMAZON PAY</div>
+            </div>
+
+            <div>
+                <label for="payment"></label><br>
+                <select class="pp11" id="payment">
+                    <option value="upi" >UPI</option>
+                    <option value="wallet">WALLETS</option>
+                    <option value="debitcard">DEBIT CARD</option>
+                    <option value="cod">CASH ON DELIEVERY</option>
+                </select>
+            </div>
+        </article>
+
+         <main id="paymentinfo">
+            <article>
+                <div>1.BILLING INFO</div>
+                <input type="text" placeholder="ENTER FULL NAME">
+                <input type="text" placeholder="ENTER FULL ADDRESS">
+                <input type="tel" placeholder="ENTER MOBILE NUMBER">
+            </article>
+
+            <article>
+                <div>2.CREDIT CARD INFO</div>
+                <input type="text" placeholder="CARDHOLDER NAME">
+                <input type="password" placeholder="ENTER CARD DETAILS">
+                <input type="number" placeholder="ENTER MONTH">
+                <input type="number" placeholder="ENTER EXPIRY">
+                <input type="number" placeholder="ENTER CVV">
+            </article>
+        </main>
+
+        <article>
+            <center>
+          <button>
+            SUBMIT YOUR DETAILS
+          </button> 
+        </center>           
+        </article>
+    </section>
+
+</body>
+</html>

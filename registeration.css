@@ -1,0 +1,44 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(/image/0a8b6417a4a2f23ca61a99c25304f32f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#registerationpage{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+    article input {
+        font-size: 28px;
+        margin: 20px;
+    } 
+
+    select{
+        font-size: 28px;
+        margin: 20px;
+    }
+
+    div{
+        font-size: 28px;
+        margin: 20px;
+    }
+
+    label{
+        font-size: 28px;
+        margin: 20px;
+    }
+
+#login1 div{
+    font-size: 28px;
+    margin: 20px;
+    text-align: center;
+}
+#login{
+    margin-top: 50px;
+}
